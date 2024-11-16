@@ -1,7 +1,7 @@
 from langchain_together import ChatTogether
 from sample import cat
 import json
-filepath = r'C:\Users\DELL\Desktop\Useless Projects\NotYoTherapist\Personalities.json'
+filepath = 'Personalities.json'
 with open(filepath, 'r',encoding='utf-8') as file:
     personality_data = json.load(file)
 
